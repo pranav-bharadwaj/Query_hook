@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav_parent {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(61, 55, 61);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-attachment: fixed;
+  z-index: 999;
+}
+.logo_parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rem;
+}
+.logo_parent img {
+  width: 60px;
+}
+.logo_title {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(235, 232, 232);
+}
+.nav_links {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 2rem;
+}
+.nav_links .links {
+  margin-left: 2rem;
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(235, 232, 232);
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.navbar_search {
+  display: flex;
+  flex: 1;
+  align-self: center;
+  justify-content: space-evenly;
+  margin-left: 3rem;
+}
